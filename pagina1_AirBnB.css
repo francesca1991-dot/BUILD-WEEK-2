@@ -1,0 +1,88 @@
+nav img{
+    width: 100px;
+}
+nav li{
+    color:white;
+}
+
+header{
+    background-color: black;
+}
+
+header div button{
+    width: 10%;
+}
+
+#navCenter{
+    padding-top: 2%;
+}
+
+.search-container{
+    background-color: white;
+    padding: 1em;
+    border-radius: 40px;
+}
+
+.search-container input{
+    border: none;
+}
+
+.search-container button{
+    border-radius: 100%;
+    padding: 1em 1.2em;
+    background-color: #FF385C;
+    border: none;
+    color: white;
+}
+section{
+    height: 700px;
+}
+
+.hero-image{
+    background-image: url(./assets/home.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    margin-left: 0.2em;
+}
+
+main img{
+    width: 80px;
+    height: 80px;
+}
+
+.containerFooter {
+    background-color: rgb(250, 248, 248);
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+    .search-container button{
+        padding: 1em 1.6em;
+    }
+}
